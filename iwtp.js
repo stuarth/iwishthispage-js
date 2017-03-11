@@ -16,7 +16,7 @@ var iwtp = (function() {
         }
     };
     var make_wish = function(site_id, wish) {
-        post_req("http://localhost:8002/wish", {site_id: site_id, url: window.location.href, wish: wish});
+        post_req("https://iwishthispage.com/wish", {site_id: site_id, url: window.location.href, wish: wish});
     };
 
     var iwtp_init = function (site_id, target, prompts) {
